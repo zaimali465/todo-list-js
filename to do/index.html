@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List | Zain Ali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>📋 Zain's To-Do List</h1>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <h2>Manage Your Tasks</h2>
+    <div>
+      <input type="text" id="taskInput" placeholder="Enter new task..." />
+      <button class="add-btn" onclick="addTask()">Add</button>
+    </div>
+    <div id="taskList"></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    Made with ❤️ by Zain Ali &copy; 2025
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
